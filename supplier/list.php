@@ -73,7 +73,10 @@
                 <td>
                     <div class="action-buttons">
                         <a href="edit.php?id=<?= $s['SupplierID'] ?>" class="edit-btn">Edit</a>
-                        <a href="delete.php?id=<?= $s['SupplierID'] ?>" class="delete-btn" onclick="return confirm('Are you sure you want to delete this supplier?');">Delete</a>
+                        <form action="delete.php" method="POST" onsubmit="return confirm('Are you sure you want to delete this supplier?');">
+                            <input type="hidden" name="SupplierID" value="<?php echo $s['SupplierID']; ?>">
+                            <button type="submit" class="delete-btn" style="cursor: pointer; border-radius: 5px; padding: 5px 10px; color: white; border: none;">Delete</button>
+                        </form>
                     </div>
                 </td>
                 </tr>

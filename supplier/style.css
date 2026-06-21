@@ -230,6 +230,7 @@ a {
     margin-right: 10px;
     padding: 5px 10px;
     border-radius: 5px;
+    border: none;
     text-decoration: none;
     color: white;
 }
@@ -242,6 +243,11 @@ a {
 }
 .list-container .delete-btn {
     background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
 }
 .list-container .delete-btn:hover {
     background-color: #c82333;
