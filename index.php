@@ -9,7 +9,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="./supplier/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/rmo.png">
+    <link rel="shortcut icon" sizes="192x192" href="images/rmo.png">
 </head>
 <body>
     <!-- Header content with navigation links and logo -->
